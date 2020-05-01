@@ -1,0 +1,33 @@
+.dashboard-wrapper{
+  height:80vh;
+  background-image: url("https://ibb.co/7GXQjvc");
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  
+  .dashboard-row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: -1rem;
+  }
+  .dashboard-col {
+    flex: 1;
+    min-width: 10rem;
+    margin: 1rem;
+    padding: 8rem;
+  
+  }
+  
+  
+  .notifications{
+    color:darkred;
+  }
+  
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
