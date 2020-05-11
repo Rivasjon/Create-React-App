@@ -14,11 +14,7 @@ const Listing = props => {
       <h4>Address: {listing.address}</h4>
       <h4>Hours: {listing.hours}</h4>
       <h4>Description: {listing.description}</h4>
-      <Container style={{ height: "400px", width: "450px" }}>
-        <GoogleMapReact yesIWantToUseGoogleMapApiInternals={true}>
-          <AnyReactComponent />
-        </GoogleMapReact>
-      </Container>
+      <Container style={{ height: "400px", width: "450px" }}></Container>
     </Container>
   );
 };
